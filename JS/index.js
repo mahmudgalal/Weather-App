@@ -17,6 +17,7 @@ let country;
 search.addEventListener("click", function () {
   country = input.value;
   position(country);
+  input.value = null;
 });
 
 async function position(city) {
