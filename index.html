@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/main.css" />
+  </head>
+  <body>
+    <header class="py-4 d-flex align-items-center justify-content-center gap-4">
+      <div class="img pt-3">
+        <img src="imgs/logo@2x.png" alt="cloud" width="100%" />
+      </div>
+      <div class="text pt-3"><h3>Weather</h3></div>
+    </header>
+
+    <main class="mt-5">
+      <div class="inputs mb-3 w-75 m-auto">
+        <input
+          type="text"
+          class="w-100 input"
+          placeholder="find your location..."
+          id="location"
+        />
+        <button class="button" type="button" id="button">Search</button>
+      </div>
+      <div class="row w-75 m-auto my-5 g-0">
+      </div>
+      <div class="error w-100 h-100 d-none"></div>
+    </main>
+
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/index.js"></script>
+  </body>
+</html>
